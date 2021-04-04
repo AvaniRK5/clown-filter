@@ -1,0 +1,17 @@
+h3
+{
+    font-size: 25px ;
+
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name: Riley;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes Riley {
+    from {box-shadow: 1px 1px 18px hotpink;}
+    to {box-shadow: 1px 1px 18px violet;}
+}
